@@ -1,0 +1,146 @@
+12:31:08.307 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+12:31:08.307 INFO - Launching a standalone Selenium Server
+2017-07-11 12:31:08.385:INFO::main: Logging initialized @310ms to org.seleniumhq.jetty9.util.log.StdErrLog
+12:31:08.463 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+12:31:08.463 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+12:31:08.463 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+12:31:08.463 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+12:31:08.463 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
+2017-07-11 12:31:08.573:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-07-11 12:31:08.651:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@14acaea5{/,null,AVAILABLE}
+2017-07-11 12:31:08.745:INFO:osjs.AbstractConnector:main: Started ServerConnector@5bcab519{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-07-11 12:31:08.745:INFO:osjs.Server:main: Started @672ms
+12:31:08.745 INFO - Selenium Server is up and running
+12:31:09.153 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+12:31:09.215 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Sf Login Spec, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+12:31:09.231 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Sf Login Spec, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.28.455520 (cc17746adff54984afff480136733114c6b3704b) on port 11650
+Only local connections are allowed.
+12:31:11.561 INFO - Detected dialect: OSS
+12:31:11.623 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Sf Login Spec, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+12:31:11.670 INFO - Executing: [get: https://test.salesforce.com/])
+12:31:17.648 INFO - Done: [get: https://test.salesforce.com/]
+12:31:17.659 INFO - Executing: [find elements: By.cssSelector: input[id=username]])
+12:31:17.688 INFO - Done: [find elements: By.cssSelector: input[id=username]]
+12:31:17.690 INFO - Executing: [is enabled: 0 [[ChromeDriver: chrome on XP (97ee892eb57746abd634337376bd8baa)] -> css selector: input[id=username]]])
+12:31:17.706 INFO - Done: [is enabled: 0 [[ChromeDriver: chrome on XP (97ee892eb57746abd634337376bd8baa)] -> css selector: input[id=username]]]
+12:31:17.722 INFO - Executing: [find element: By.cssSelector: input[id=username]])
+12:31:17.737 INFO - Done: [find element: By.cssSelector: input[id=username]]
+12:31:17.737 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on XP (97ee892eb57746abd634337376bd8baa)] -> css selector: input[id=username]], [k, t, h, a, d, i, s, i, n, a, @, o, p, e, n, ., e, d, u, ., a, u, ., p, a, ., t, s, t]])
+12:31:17.854 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on XP (97ee892eb57746abd634337376bd8baa)] -> css selector: input[id=username]], [k, t, h, a, d, i, s, i, n, a, @, o, p, e, n, ., e, d, u, ., a, u, ., p, a, ., t, s, t]]
+12:31:17.861 INFO - Executing: [find element: By.cssSelector: input[id=password]])
+12:31:17.880 INFO - Done: [find element: By.cssSelector: input[id=password]]
+12:31:17.884 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on XP (97ee892eb57746abd634337376bd8baa)] -> css selector: input[id=password]], [@, a, s, d, f, g, h, 1, $]])
+12:31:17.964 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on XP (97ee892eb57746abd634337376bd8baa)] -> css selector: input[id=password]], [@, a, s, d, f, g, h, 1, $]]
+12:31:17.968 INFO - Executing: [find elements: By.cssSelector: input[id=Login]])
+12:31:17.987 INFO - Done: [find elements: By.cssSelector: input[id=Login]]
+12:31:17.992 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (97ee892eb57746abd634337376bd8baa)] -> css selector: input[id=Login]]])
+12:31:18.012 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (97ee892eb57746abd634337376bd8baa)] -> css selector: input[id=Login]]]
+12:31:18.019 INFO - Executing: [find element: By.cssSelector: input[id=Login]])
+12:31:18.037 INFO - Done: [find element: By.cssSelector: input[id=Login]]
+12:31:18.041 INFO - Executing: [click: 2 [[ChromeDriver: chrome on XP (97ee892eb57746abd634337376bd8baa)] -> css selector: input[id=Login]]])
+12:31:19.859 INFO - Done: [click: 2 [[ChromeDriver: chrome on XP (97ee892eb57746abd634337376bd8baa)] -> css selector: input[id=Login]]]
+12:31:19.867 INFO - Executing: [find elements: By.cssSelector: input[id=221:0;p]])
+12:31:20.408 WARN - Exception thrown
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ESW009', ip: '192.168.2.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\ein0020\AppData\Local\Temp\scoped_dir4320_20545}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 97ee892eb57746abd634337376bd8baa
+*** Element info: {Using=css selector, value=input[id=221:0;p]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:437)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:505)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
+	at com.sun.proxy.$Proxy4.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:177)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:50)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:35)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+12:31:20.408 WARN - Exception: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ESW009', ip: '192.168.2.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\ein0020\AppData\Local\Temp\scoped_dir4320_20545}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 97ee892eb57746abd634337376bd8baa
+*** Element info: {Using=css selector, value=input[id=221:0;p]}
+12:31:20.961 INFO - Executing: [find elements: By.cssSelector: input[id=221:0;p]])
+12:31:31.129 WARN - Exception thrown
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9.98 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ESW009', ip: '192.168.2.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\ein0020\AppData\Local\Temp\scoped_dir4320_20545}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 97ee892eb57746abd634337376bd8baa
+*** Element info: {Using=css selector, value=input[id=221:0;p]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:437)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:505)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
+	at com.sun.proxy.$Proxy4.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:177)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:50)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:35)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+12:31:31.131 WARN - Exception: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9.98 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ESW009', ip: '192.168.2.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\ein0020\AppData\Local\Temp\scoped_dir4320_20545}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 97ee892eb57746abd634337376bd8baa
+*** Element info: {Using=css selector, value=input[id=221:0;p]}
+12:31:31.158 INFO - Executing: [take screenshot])
+12:31:31.449 INFO - Done: [take screenshot]
+12:31:31.459 INFO - Executing: [delete session: 4595e584-016d-45fc-bbb2-061e1f754faa])
+12:31:32.399 INFO - Done: [delete session: 4595e584-016d-45fc-bbb2-061e1f754faa]
